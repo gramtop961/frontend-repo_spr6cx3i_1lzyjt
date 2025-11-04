@@ -21,7 +21,7 @@ function useDarkMode() {
       localStorage.setItem('theme', 'light');
     }
   }, [enabled]);
-  return { enabled, setEnabled } as const;
+  return { enabled, setEnabled };
 }
 
 export default function App() {
